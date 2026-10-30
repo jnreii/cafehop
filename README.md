@@ -8,14 +8,6 @@
 
 *"Hidden gems worth gatekeeping."*
 
-![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?logo=dart&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black)
-![Riverpod](https://img.shields.io/badge/Riverpod-0553B1)
-![Groq](https://img.shields.io/badge/Groq-Llama%203.1-F55036)
-![NETS QR](https://img.shields.io/badge/NETS-QR%20payments-E2231A)
-![OpenStreetMap](https://img.shields.io/badge/OpenStreetMap-7EBC6F?logo=openstreetmap&logoColor=white)
-
 [**Demo video**](https://youtu.be/VE6fTr64pMo) · [Features](#features) · [Screenshots](#screenshots) · [How it works](#how-it-works) · [Setup](#setup)
 
 </div>
@@ -29,12 +21,12 @@
 
 ### At a glance
 
-- 🤖 **AI recommendations** from Groq Llama 3.1, based on each user's own saves, visits and reviews
-- 📅 **Real bookings** in Cloud Firestore with live slot availability and double-booking checks
-- 💳 **NETS QR deposits**, with the booking only created after payment is confirmed
-- 🗺️ **OpenStreetMap** with live location, since home cafes are hard to find from an address
-- 🔔 **Local notifications** for reminders, visit check-ins and new AI picks
-- 📸 **Photo reviews**, Google and phone sign-in, and 3 colour themes
+- **AI recommendations** from Groq Llama 3.1, based on each user's own saves, visits and reviews
+- **Real bookings** in Cloud Firestore with live slot availability and double-booking checks
+- **NETS QR deposits**, with the booking only created after payment is confirmed
+- **OpenStreetMap** with live location, since home cafes are hard to find from an address
+- **Local notifications** for reminders, visit check-ins and new AI picks
+- **Photo reviews**, Google and phone sign-in, and 3 colour themes
 
 </td>
 </tr>
@@ -99,7 +91,7 @@ All this effort leads to decision fatigue and can put people off home cafes enti
 | **Personalisation** | Custom icon, animated splash, 3 saved colour themes | Lottie, SharedPreferences |
 
 <details open>
-<summary><b>🤖 AI Cafe Recommender</b></summary>
+<summary><b>AI Cafe Recommender</b></summary>
 <br>
 
 - **Signals:** saved cafes, completed visits and 4 to 5 star reviews. Completed visits and positive reviews count more than saves, and repeat visits to a category count more than one.
@@ -111,7 +103,7 @@ All this effort leads to decision fatigue and can put people off home cafes enti
 </details>
 
 <details>
-<summary><b>📅 Bookings</b></summary>
+<summary><b>Bookings</b></summary>
 <br>
 
 - Full create, read, update and delete for bookings.
@@ -123,7 +115,7 @@ All this effort leads to decision fatigue and can put people off home cafes enti
 </details>
 
 <details>
-<summary><b>💳 NETS QR Payment</b></summary>
+<summary><b>NETS QR Payment</b></summary>
 <br>
 
 - A $7 deposit through the NETS QR sandbox, tied to a real reservation.
@@ -134,7 +126,7 @@ All this effort leads to decision fatigue and can put people off home cafes enti
 </details>
 
 <details>
-<summary><b>🗺️ Maps, sharing and notifications</b></summary>
+<summary><b>Maps, sharing and notifications</b></summary>
 <br>
 
 - **OpenStreetMap** with the user's live location on the cafe and booking pages. Free tiles, no API key or billing.
